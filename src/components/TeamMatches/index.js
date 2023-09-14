@@ -92,7 +92,7 @@ class TeamMatches extends Component {
     const {id} = params
     return (
       <div className={`app-team-matches-container ${id}`}>
-        {isLoading ? this.renderLoader : this.renderTeamMatches()}
+        {isLoading ? this.renderLoader() : this.renderTeamMatches()}
       </div>
     )
   }

@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unknown-property */
+// eslint-disable-next-line prettier/prettier
 // Write your code here
 import './index.css'
 import Loader from 'react-loader-spinner'
@@ -39,6 +39,7 @@ class Home extends Component {
   }
 
   renderLoader = () => (
+    // eslint-disable-next-line react/no-unknown-property
     <div testid="loader" className="loader-container">
       <Loader type="Rings" color="#00BFFF" height={80} width={80} />
     </div>
