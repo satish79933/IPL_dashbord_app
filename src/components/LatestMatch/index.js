@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 // Write your code here
 import './index.css'
 import {Component} from 'react'
@@ -12,6 +11,7 @@ class LatestMatch extends Component {
       date,
       firstInnings,
       manOfTheMatch,
+      secondInnings,
       umpires,
       venue,
       result,

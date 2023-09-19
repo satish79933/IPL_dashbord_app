@@ -1,4 +1,3 @@
-// eslint-disable-next-line prettier/prettier
 // Write your code here
 import './index.css'
 import Loader from 'react-loader-spinner'

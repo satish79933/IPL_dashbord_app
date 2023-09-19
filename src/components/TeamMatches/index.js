@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 // Write your code here
 import './index.css'
 import Loader from 'react-loader-spinner'
@@ -79,7 +80,6 @@ class TeamMatches extends Component {
   }
 
   renderLoader = () => (
-    // eslint-disable-next-line react/no-unknown-property
     <div testid="loader" className="loader-container">
       <Loader type="BallTriangle" color="#00BFFF" height={80} width={80} />
     </div>
